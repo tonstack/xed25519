@@ -1,3 +1,3 @@
-# `xed25519-win32-ia32-msvc`
+# `@tonstack/xed25519-win32-ia32-msvc`
 
-This is the **i686-pc-windows-msvc** binary for `xed25519`
+This is the **i686-pc-windows-msvc** binary for `@tonstack/xed25519`

@@ -1,3 +1,3 @@
-# `xed25519-android-arm-eabi`
+# `@tonstack/xed25519-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `xed25519`
+This is the **armv7-linux-androideabi** binary for `@tonstack/xed25519`

@@ -1,5 +1,5 @@
 {
-  "name": "xed25519-freebsd-x64",
+  "name": "@tonstack/xed25519-freebsd-x64",
   "version": "0.0.1",
   "os": [
     "freebsd"
@@ -11,8 +11,16 @@
   "files": [
     "xed25519.freebsd-x64.node"
   ],
+  "description": "xed25519 keys generation over dalek cryptography bindings",
+  "keywords": [
+    "xed25519",
+    "ed25519",
+    "x25519",
+    "dalek"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/tonstack/xed25519"
 }
