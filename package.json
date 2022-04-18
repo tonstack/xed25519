@@ -1,0 +1,47 @@
+{
+  "name": "@tonstack/xed25519",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "ava",
+    "version": "napi version"
+  },
+  "napi": {
+    "name": "xed25519",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-linux-android",
+        "aarch64-unknown-linux-gnu",
+        "aarch64-unknown-linux-musl",
+        "aarch64-pc-windows-msvc",
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl",
+        "x86_64-unknown-freebsd",
+        "i686-pc-windows-msvc",
+        "armv7-linux-androideabi"
+      ]
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.6.2",
+    "ava": "^4.0.1"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "keywords": [
+    "xed25519",
+    "ed25519",
+    "x25519",
+    "dalek"
+  ],
+  "repository": "https://github.com/tonstack/xed25519",
+  "description": "xed25519 keys generation over dalek cryptography bindings"
+}
